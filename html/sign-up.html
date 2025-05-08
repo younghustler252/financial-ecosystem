@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Signup | Financial Ecosystem</title>
+  <link rel="stylesheet" href="../css/form.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Create Your Account</h2>
+    <form id="signupForm">
+      <div class="name-fields">
+        <input type="text" id="firstname" placeholder="First Name" required />
+        <input type="text" id="lastname" placeholder="Last Name" required />
+      </div>
+      <input type="email" id="email" placeholder="Email" required />
+      <input type="tel" id="phone" placeholder="Phone Number" required />
+      <input type="password" id="password" placeholder="Password" required />
+      <input type="password" id="confirmPassword" placeholder="Confirm Password" required />
+      <button type="submit" class="form-action">Signup</button>
+      <div class="form-footer">
+        Already have an account? <a href="login.html">Login</a>
+      </div>
+      <div id="message" class="message"></div>
+    </form>
+  </div>
+
+  <script src="../js/sign-up.js"></script>
+</body>
+</html>

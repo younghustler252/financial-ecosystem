@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Ecosystem limited</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="icon" href="../assets/logo.png">
+</head>
+<body>
+    <!-- ===============================  Header ======================================== -->
+    <div id="overlay" class="overlay" onclick="showMenu()"></div>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="../assets/logo.png" alt="logo">
+            </div>
+            <nav>
+                <ul class="nav-link" id="navLink">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li class="dropdown" onclick="toggleDropdown(this)">
+                        <a href="loan.html">
+                            Loans
+                            <i class="fa fa-caret-down dropdown-caret" onclick="toggleDropdown(event, this)"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="Employee-loans.html">Employee Loan</a></li>
+                            <li><a href="coperate-loan.html">corprate loan</a></li>
+                            <li><a href="public-servant-loan.html">Public Servant Loan</a></li>
+                            <li><a href="lpo-financing.html">LPO Financing</a></li>
+                            <li><a href="financial-advisory.html">Financial Advisory</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact-us.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="button-dropdown">
+                <a href="#" class="first-btn">Apply Now <i class="fas fa-caret-down"></i></a>
+                <ul class="button-dropdown-content">
+                    <li><a href="sign-up.html" target="_blank">Personal Loan</a></li>
+                    <li><a href="">Business Loan</a></li>
+                </ul>
+            </div>
+            <div id="menu-icon" class="menu-icon" onclick="showMenu('')">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+<!-- =====================About Intro========= -->
+    <section class="about-intro">
+        <h2>About Us</h2>
+        <div class="about-grid">
+            <div class="about-content">
+                <h3>What we are</h3>
+                <p>At Financial Ecosystem, we believe access to credit should be simple, fair, and available to everyone — no matter your background. We’re here to help people thrive, not just survive..</p>
+            </div>
+            <img src="../assets/about.jpg" alt="">
+        </div>
+    </section>
+    <section class="company-story">
+          <div class="Story-content">
+            <h3>Our Story</h3>
+            <p>Founded with the mission to make credit more accessible, Financial Ecosystem emerged in response to the growing need for ethical, transparent lending services. Our journey began with a single goal — to empower the underserved with financial tools that improve lives and communities.</p>
+            <p>Since our inception, we have helped thousands of clients build stronger financial futures and have grown into a trusted name in ethical finance.</p>
+          </div>
+      </section>
+    <!-- ======================= VALUE SECTION ======================= -->
+    <section class="values-section">
+        <h2>Our Core Values</h2>
+        <div class="values-grid">
+            <div class="value-item">
+                <h3><i class="fas fa-shield-alt"></i> Integrity</h3>
+                <p>We act with unwavering honesty and ethics in every decision and interaction.</p>
+            </div>
+            <div class="value-item">
+                <h3><i class="fas fa-balance-scale"></i> Transparency</h3>
+                <p>No hidden fees, no surprises. We believe clear communication and openness build strong, lasting relationships with our customers.</p>
+            </div>
+            <div class="value-item">
+                <h3><i class="fas fa-users"></i> Committed</h3>
+                <p>We are committed to putting customers’ needs first. We go the extra mile for you</p>
+
+            </div>
+            <div class="value-item">
+                <h3><i class="fas fa-lightbulb"></i> Innovation</h3>
+                <p>We harness modern tools and ideas to simplify finance and solve real problems.</p>
+        </div>
+        </div>
+      </section>
+    
+    <!-- =================mission and vision  =============================  -->
+    <section class="mission-vision">
+        <div class="mission">
+            <h2>Our Mission</h2>
+            <p>To expand financial access and bridge the credit gap for underserved individuals and businesses through ethical lending, education, and digital innovation.</p>
+        </div>
+        <div class="vision">
+            <h2>Our Vision</h2>
+            <p>To be the most inclusive and empowering financial partner, redefining the way communities experience credit and financial freedom.</p>
+        </div>
+    </section>
+
+    <!-- ===================================footer=========================== -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h2 class="footer-logo">FINANCIAL ECOSYSTEM</h2>
+                <p class="footer-logo-text">Providing Sustainable and Delibrate solution to your Financial Ecosystem</p>
+                <a href="">Site Map</a>
+                <div class="social-icons">
+                    <a href=""><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="contact-us.html">Contact Us</a></li>
+                    <li><a href="loan.html">Loans</a></li>                
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Legal</h3>
+                <ul>
+                    <li><a href="">Privacy and policy</a></li>
+                    <li><a href="">Terms and Condition</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <div class="form-wrapper">
+                    <h2>Stay Connected, Subscribe To Our Updates</h2>
+                    <form action="" class="newsletter-form">
+                        <input type="email" placeholder="Email">
+                        <button>Subscribe</button>
+                    </form>
+                </div>
+            </div>       
+        </div>
+        <div class="footer-bottom">
+            Financial Ecosystem <span>© 2025. All Rights Reserved.</span>        </div>
+    </footer>
+    
+ 
+</body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="../js/slide-show.js"></script>
+<script src="../js/navigaton.js"></script>
+<script src="../js/active.js"></script>
+</html>

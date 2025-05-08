@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Ecosystem limited</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="icon" href="../assets/logo.png">
+</head>
+<body>
+    <div id="overlay" class="overlay" onclick="showMenu()"></div>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="../assets/logo.png" alt="logo">
+            </div>
+            <nav>
+                <ul class="nav-link" id="navLink">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li class="dropdown" onclick="toggleDropdown(this)">
+                        <a href="loan.html">
+                            Loans
+                            <i class="fa fa-caret-down dropdown-caret" onclick="toggleDropdown(event, this)"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="Employee-loans.html">Employee Loan</a></li>
+                            <li><a href="coperate-loan.html">corprate loan</a></li>
+                            <li><a href="public-servant-loan.html">Public Servant Loan</a></li>
+                            <li><a href="lpo-financing.html">LPO Financing</a></li>
+                            <li><a href="financial-advisory.html">Financial Advisory</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact-us.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="button-dropdown">
+                <a href="#" class="first-btn">Apply Now <i class="fas fa-caret-down"></i></a>
+                <ul class="button-dropdown-content">
+                    <li><a href="sign-up.html" target="_blank">Personal Loan</a></li>
+                    <li><a href="">Business Loan</a></li>
+                </ul>
+            </div>
+            <div id="menu-icon" class="menu-icon" onclick="showMenu('')">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+    <!-- ======================================== loans section===================== -->
+    <section class="loan-section">
+       <div class="loan-container">
+            <div class="loan-intro">
+                <h2>Loan Options</h2>
+                <p>Explore our range of loan options tailored to meet your financial needs.</p>
+            </div>
+            <div class="slider-container">
+                <div class="loan-slider">
+                    <div class="loan-card">
+                        <!-- SVG icon -->
+                        <div class="icon">
+                            <svg width="50" height="50" fill="#0cbeab" viewBox="0 0 24 24"><path d="M6 2a2 2 0 00-2 2v15.586l2-2V4h12v11.586l2 2V4a2 2 0 00-2-2H6zm9 6a1 1 0 100 2 1 1 0 000-2zm-6 0a1 1 0 100 2 1 1 0 000-2zm9.707 12.707l-4-4a1 1 0 00-1.414 0L10 20l-1.293-1.293a1 1 0 00-1.414 0L2.586 23H21.41l-2.703-2.293z"/></svg>
+                        </div>
+                        <h3>Employee Loan</h3>
+                        <p>Get quick access to funds with our employee loan options.</p>
+                        <a href="Employee-loans.html">Learn More</a>
+                        <!-- Decorative shape -->
+                        <div class="decor-shape">
+                            <svg viewBox="0 0 1440 320" preserveAspectRatio="none"><path fill="#e0f7f5" fill-opacity="1" d="M0,288L1440,160L1440,320L0,320Z"></path></svg>
+                        </div>
+                    </div>
+                            
+                    <div class="loan-card">
+                        <svg width="50" height="50" fill="#0cbeab" viewBox="0 0 24 24">
+                            <path d="M10 2h4a2 2 0 012 2v2h2a2 2 0 012 2v10a2 2 0 01-2 2h-2v2a2 2 0 01-2 2h-4a2 2 0 01-2-2v-2H6a2 2 0 01-2-2V8a2 2 0 012-2h2V4a2 2 0 012-2zm0 4V4h4v2h-4zm0 14h4v2h-4v-2zm8-2V8H6v10h12z"/>
+                        </svg>
+                        <h3>Corporate Loan</h3>
+                        <p>Flexible financing solutions for your business needs.</p>
+                        <a href="coperate-loan.html">Learn More</a>
+                        <div class="decor-shape">
+                            <svg viewBox="0 0 1440 320" preserveAspectRatio="none"><path fill="#e0f7f5" fill-opacity="1" d="M0,288L1440,160L1440,320L0,320Z"></path></svg>
+                        </div> 
+                    </div>
+                    <div class="loan-card">
+                        <div class="icon">
+                            <svg width="50" height="50" fill="#0cbeab" viewBox="0 0 24 24"><path d="M12 2a5 5 0 015 5v1h1a3 3 0 013 3v4h-2v7h-4v-5H9v5H5v-7H3v-4a3 3 0 013-3h1V7a5 5 0 015-5z"/></svg>
+                        </div>
+                        <h3>Public Servant Loan</h3>
+                        <p>Specialized loans for public servants with competitive rates.</p>
+                        <a href="public-servant-loan.html">Learn More</a>
+                        <div class="decor-shape">
+                            <svg viewBox="0 0 1440 320" preserveAspectRatio="none"><path fill="#e0f7f5" fill-opacity="1" d="M0,288L1440,160L1440,320L0,320Z"></path></svg>
+                        </div>    
+                      </div>
+                    <div class="loan-card">
+                        <svg width="50" height="50" fill="#0cbeab" viewBox="0 0 24 24">
+                            <path d="M9 2a1 1 0 00-1 1v1H6a2 2 0 00-2 2v14a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-2V3a1 1 0 00-1-1H9zm1 2h4v1h-4V4zM8 10h8v2H8v-2zm0 4h6v2H8v-2z"/>
+                        </svg>                        <h3>LPO Financing</h3>
+                        <p>Finance your purchase orders with ease and confidence.</p>
+                        <a href="lpo-financing.html ">Learn More</a>
+                        <div class="decor-shape">
+                            <svg viewBox="0 0 1440 320" preserveAspectRatio="none"><path fill="#e0f7f5" fill-opacity="1" d="M0,288L1440,160L1440,320L0,320Z"></path></svg>
+                        </div> 
+                    </div>
+                    <div class="loan-card">
+                        <svg width="50" height="50" fill="#0cbeab" viewBox="0 0 24 24">
+                            <path d="M3 12a9 9 0 1118 0 9 9 0 01-18 0zm2 0a7 7 0 0012.905 3.406l-4.77-4.77V5.1A7 7 0 005 12zm8-6.9v5.485l3.893 3.893A7 7 0 0013 5.1z"/>
+                        </svg>
+                        <h3>Financial Advisory</h3>
+                        <p>Expert advice to help you make informed financial decisions.</p>
+                        <a href="financial-advisory.html">Learn More</a>
+                        <div class="decor-shape">
+                            <svg viewBox="0 0 1440 320" preserveAspectRatio="none"><path fill="#e0f7f5" fill-opacity="1" d="M0,288L1440,160L1440,320L0,320Z"></path></svg>
+                        </div> 
+                    </div>
+                </div>
+                <div class="loan-slider-buttons">
+                    <button id="loanPrev"><</button>
+                    <button id="loanNext">></button>
+                </div>
+            </div>       
+       </div>
+    </section>
+       <!-- ========loan-cal====== -->
+    <section class="loan-cal">
+        <div class="loan-cal-info">
+            <h4>Financial ecosystem Loans</h4>
+            <p class="strong">Understand Your Cost</p>
+            <p>
+                Whether you’re looking for a ₦5,000 loan, a ₦500,000 loan or a ₦5,000,000 loan, one of the most important things you will need to consider is the potential interest rate you could pay over the duration of the loan period. Loan interest rates can vary depending on the amount you borrow and the loan term can also impact the loan rate you may be offered.
+            </p>
+            <p>
+                Use our loan calculator to see how much your repayments are likely to be on the amount you would like to borrow.
+            </p>
+        </div>
+        <div class="calculator">
+            <h3>Calculate Your Repayment</h3>
+            <label for="loanAmount">Loan Amount</label>
+            <input type="range" id="loanAmount" min="10000" max="1000000" step="10000" value="100000">
+            <div class="amount-display">₦100,000</div>
+            <label for="duration">Repayment Duration (Months)</label>
+            <input type="range" id="duration" min="1" max="12" value="6">
+            <div class="duration-display">6 months</div>
+            <div class="output">
+              <p><strong>Monthly Payment:</strong> <span id="monthly">₦0</span></p>
+              <p><strong>Total Repayment:</strong> <span id="total">₦0</span></p>
+            </div> 
+        </div>
+    </section>
+<!-- ===============================footer===========================  -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h2 class="footer-logo">FINANCIAL ECOSYSTEM</h2>
+                <p class="footer-logo-text">Providing Sustainable and Delibrate solution to your Financial Ecosystem</p>
+                <a href="https://maps.app.goo.gl/buQaAKpgwGrU1ARe8" target="_blank">Site Map</a>
+                <div class="social-icons">
+                    <a href=""><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="contact-us.html">Contact Us</a></li>
+                    <li><a href="loan.html">Loans</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Legal</h3>
+                <ul>
+                    <li><a href="">Privacy and policy</a></li>
+                    <li><a href="">Terms and Condition</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <div class="form-wrapper">
+                    <h2>Stay Connected, Subscribe To Our Updates</h2>
+                    <form action="" class="newsletter-form">
+                        <input type="email" placeholder="Email">
+                        <button>Subscribe</button>
+                    </form>
+                </div>
+            </div>       
+        </div>
+        <div class="footer-bottom">
+            Financial Ecosystem limited <span>@All Right Reserved</span>
+        </div>
+    </footer>     
+    <!-- ===============================  Header ======================================== --> 
+</body>
+<script src="../js/card-slider.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="../js/slide-show.js"></script>
+<script src="../js/navigaton.js"></script>
+<script src="../js/active.js"></script>
+<script src="../js/loan-cal.js"></script>
+</html>
